@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "server": "nodemon server.js",
-    "client":"npm start --prefix client",
-    "clientinstall":"npm install --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
@@ -18,13 +18,13 @@
     "bcryptjs": "^2.4.3",
     "config": "^3.3.6",
     "express": "^4.17.1",
-    "express-validator": "^6.12.1",
+    "express-validator": "^6.12.2",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.0.3",
+    "mongoose": "^6.0.8",
     "mpath": "^0.8.4"
   },
   "devDependencies": {
-    "concurrently": "^6.2.1",
+    "concurrently": "^6.2.2",
     "nodemon": "^2.0.12"
   }
 }
