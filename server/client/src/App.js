@@ -1,7 +1,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import { Fragment } from 'react';
+import Navbar from './components/layout/Navbar';
+import React, { Fragment } from 'react';
+import Home from './components/pages/Home';
+import About from './components/pages/About';
 
 const App = () => {
   return (
